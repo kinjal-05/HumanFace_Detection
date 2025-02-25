@@ -1,0 +1,8 @@
+# Train/val/test sets
+train: '/content/images/train'
+val: '/content/images/validation'
+test: '/content/images/test'
+
+# Classes
+names:
+  0: face
