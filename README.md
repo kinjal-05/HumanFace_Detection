@@ -87,6 +87,7 @@ test: Human_Faces/images/test # Path to the test images
 nc: 1  # Number of classes (1 for face detection)
 
 names: ['face']  # Class names
+```
 
 ### 🖼️ Model Testing and Visualization
 To test the model on a single image and visualize the results, use the following code:
