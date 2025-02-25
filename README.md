@@ -88,22 +88,20 @@ nc: 1  # Number of classes (1 for face detection)
 
 names: ['face']  # Class names
 
-### .
-
-🖼️ Model Testing and Visualization
+### 🖼️ Model Testing and Visualization
 To test the model on a single image and visualize the results, use the following code:
 
 ```sh
 import matplotlib.pyplot as plt
 import cv2
 
-# Replace with the actual path to your test image
+
 image_path = '/path/to/test/image.jpg'
 
-# Perform inference on the image
+
 res = model(image_path)
 
-# Plot the results
+
 res_plotted = res[0].plot()
 plt.imshow(res_plotted)
 plt.show()
